@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Pirotecnia Jorda</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .product-card {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .product-card .content {
+            padding: 20px;
+        }
+
+        .product-card .content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-card .content p {
+            font-size: 1em;
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        .product-card .content .price {
+            font-size: 1.2em;
+            color: #E63946;
+            font-weight: bold;
+        }
+
+        .product-card .content .btn {
+            background-color: #E63946;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .product-card .content .btn:hover {
+            background-color: #F1FAEE;
+            color: #E63946;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .product-card {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/favicon.ico" alt="Pirotecnia Jorda Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inici</a></li>
+                <li><a href="historia.html">Història</a></li>
+                <li><a href="productes.html">Productes</a></li>
+                <li><a href="Galaria.html">Galeria</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+                <li><a href="productos.html">Productes</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title">Nuestros Productos</h1>
+
+        <div class="product-container">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <img src="../img/splash.jpg" alt="Fuegos Artificiales">
+                <div class="content">
+                    <h3>Petardos splash</h3>
+                    <p>Explosión de colores y luces para cualquier tipo de evento.</p>
+                    <span class="price">1.75€</span>
+                   
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="../imagenes/pirotecnia2.jpg" alt="Cohetes">
+                <div class="content">
+                    <h3>Cohetes</h3>
+                    <p>Alcanza gran altura con un potente estruendo.</p>
+                    <span class="price">80€</span>
+                    
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="../imagenes/pirotecnia3.jpg" alt="Rockets">
+                <div class="content">
+                    <h3>Rockets</h3>
+                    <p>Proyectiles para un espectáculo aéreo impresionante.</p>
+                    <span class="price">120€</span>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pirotecnia Jorda. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
